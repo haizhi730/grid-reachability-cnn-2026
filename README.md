@@ -59,8 +59,6 @@ python figures.py results_rerun
 | `results_rerun/checkpoints/` | 六个验证损失最小的模型权重。 |
 | `results_rerun/figures/` | 报告的三个图，以及示例地图编号和概率。 |
 
-## 来源与 AI 使用
+## 来源
 
 地图全部由 `grid.py` 生成。实验脚本为本课程任务编写，使用 NumPy、PyTorch 和 Matplotlib。障碍膨胀的背景见 [Nav2 Jazzy InflationLayer](https://api.nav2.org/nav2-jazzy/html/classnav2__costmap__2d_1_1InflationLayer.html)，卷积模型背景见 [LeCun 等](https://bottou.org/papers/lecun-98h)，优化方法见 [Kingma 和 Ba](https://arxiv.org/abs/1412.6980)。
-
-OpenAI Codex 按用户提出的导航方向细化实验设计、编写和运行脚本、整理实测指标与图表，并撰写报告初稿。表格和图形来自本地运行记录。
